@@ -6,12 +6,12 @@
 }
 
 body {
-  background-color: #fab22e;
+  background-color: #3a3de4;
 }
 .container {
   width: 80vmin;
   padding: 50px 40px;
-  background-color: #0c0d14;
+  background-color: #232430;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -34,11 +34,17 @@ p {
   word-wrap: break-word;
   line-height: 30px;
   margin: 30px 0;
+  opacity: 0;
+}
+
+.fade {
+  opacity: 1;
+  transition: opacity 1.5s;
 }
 
 button {
   display: block;
-  background-color: #fab22e;
+  background-color: #3c98ce;
   border: none;
   padding: 10px 25px;
   border-radius: 5px;
@@ -51,8 +57,8 @@ button {
 
 footer {
   position: absolute;
-  top: 80%;
-  left: 60%;
+  top: 95%;
+  left: 56%;
   transform: translate(-80%, -80%);
-  color: rgb(61, 46, 46);
+  color: #fff;
 }
